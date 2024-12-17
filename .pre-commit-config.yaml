@@ -30,7 +30,7 @@ repos:
         additional_dependencies: [ flake8-docstrings ]
 
   - repo: https://github.com/asottile/pyupgrade
-    rev: v2.31.0
+    rev: v3.19.1
     hooks:
       - id: pyupgrade
         args: [
